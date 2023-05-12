@@ -1,0 +1,28 @@
+.paginationbtns{
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+  
+  .paginationbtns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+  }
+
+  .paginationbtns a:hover{
+    color: white;
+    background-color: blue;
+  }
+
+  .paginationactive a{
+    color: white;
+    background-color: blue;
+  }
